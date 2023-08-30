@@ -31,11 +31,14 @@ body {
 }
 
 .accordion-button:not(.collapsed){
-    background: rgba(0,0,0,0.1);
+    background: rgba(255, 255, 255, 0.1);
     color: black;
     box-shadow: none;
 }
 
 .accordion-button:not(.collapsed)::after{
+    background-image: none;
+}
+.accordion-button::after{
     background-image: none;
 }
