@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleIndicators {
+    width: 90%;
+    max-width: 800px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
